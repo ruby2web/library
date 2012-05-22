@@ -28,6 +28,7 @@ GEM
     activesupport (3.2.3)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    ansi (1.4.2)
     arel (3.0.2)
     builder (3.0.0)
     coffee-rails (3.2.2)
@@ -97,6 +98,8 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
+    turn (0.9.5)
+      ansi
     tzinfo (0.3.33)
     uglifier (1.2.4)
       execjs (>= 0.3.0)
@@ -113,4 +116,5 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   sqlite3
   therubyracer
+  turn
   uglifier (>= 1.0.3)
